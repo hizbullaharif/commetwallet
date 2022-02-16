@@ -13,7 +13,6 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
-import img1 from "./assets/download.jpg";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { makeStyles } from "@mui/styles";
 import Chart from "./components/Apexchart";
@@ -38,7 +37,7 @@ const useStyles = makeStyles({
 function App() {
   const classes = useStyles();
   return (
-    <div className="App">
+    <div>
       <HeaderMenu />
       <Grid container spacing={2}>
         <Grid item md={1}>
@@ -235,7 +234,6 @@ function App() {
           <Typography
             variant="h3"
             component="div"
-            end
             sx={{
               display: "flex",
               fontWeight: "500",
